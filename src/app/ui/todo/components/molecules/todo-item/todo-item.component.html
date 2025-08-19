@@ -1,0 +1,10 @@
+<li [class.completed]="todo.completed" [class.editing]="isEditing">
+  @if(!isEditing){ <div class="view">
+    <app-todo-checkbox [todo]="todo"></app-todo-checkbox>
+    <app-todo-text (setEditing)="startEdit()" [todo]="todo"></app-todo-text>
+    <app-todo-button-delete [todo]="todo"></app-todo-button-delete>
+  </div>
+  }@else {
+  <app-todo-input-item [todo]="todo" (isEditing)="handleBlur()"></app-todo-input-item>
+  }
+</li>

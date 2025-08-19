@@ -1,0 +1,6 @@
+<ul class="filters">
+  @for(filter of filters; track filter.text) {
+  <app-todo-button-filter [filter]="filter.filter" [text]="filter.text" [isSelected]="filter.isSelected">
+  </app-todo-button-filter>
+  }
+</ul>

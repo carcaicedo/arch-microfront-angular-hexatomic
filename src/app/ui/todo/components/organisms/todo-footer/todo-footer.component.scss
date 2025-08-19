@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  background-color: #f8f9fa;
+  border-top: 1px solid #dee2e6;
+
+  .todo-count {
+    font-size: 14px;
+    color: #6c757d;
+  }
+
+  .clear-completed {
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: underline;
+
+    &:hover {
+      color: #0056b3;
+    }
+  }
+}

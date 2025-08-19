@@ -1,0 +1,4 @@
+<div class="input-container">
+  <input #todoInputRef class="edit" id="edit-todo-input" [(ngModel)]="title" (focus)="handleFocus()"
+    (blur)="handleBlur()" (keyup.enter)="updateTodo()" />
+</div>

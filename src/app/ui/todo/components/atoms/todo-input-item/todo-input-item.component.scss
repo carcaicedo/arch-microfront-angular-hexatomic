@@ -1,0 +1,19 @@
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.edit {
+  width: 100%;
+  margin-left: 40px;
+  box-sizing: border-box;
+  transition: box-shadow 0.2s, border-color 0.2s;
+  padding: 10px 10px 10px 10px;
+  padding-right: 0px;
+}
+
+.edit:focus {
+  outline: none;
+  border: 2px solid #b83f45;
+  box-shadow: 0 0 0 2px #b83f4540;
+}

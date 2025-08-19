@@ -1,0 +1,42 @@
+.delete-x-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.x-shape {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
+.x-shape::before,
+.x-shape::after {
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: 0;
+  width: 2px;
+  height: 18px;
+  background: #b83f45;
+  border-radius: 2px;
+}
+
+.x-shape::before {
+  transform: rotate(45deg);
+}
+
+.x-shape::after {
+  transform: rotate(-45deg);
+}
+
+.delete-x-btn:focus {
+  outline: 2px solid #b83f45;
+}

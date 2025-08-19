@@ -1,0 +1,14 @@
+.clear-completed-btn {
+  background: none;
+  border: none;
+  color: #111;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  transition: text-decoration 0.2s, color 0.2s;
+}
+
+.clear-completed-btn:hover span {
+  text-decoration: underline;
+}

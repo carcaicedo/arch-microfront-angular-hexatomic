@@ -1,0 +1,20 @@
+.view {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+app-todo-checkbox {
+  margin-right: 1rem;
+}
+
+app-todo-text {
+  flex: 1 1 auto;
+}
+
+app-todo-button-delete {
+  margin-left: 1rem;
+  align-self: flex-end;
+}

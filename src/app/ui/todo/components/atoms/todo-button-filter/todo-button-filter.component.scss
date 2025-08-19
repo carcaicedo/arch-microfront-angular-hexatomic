@@ -1,0 +1,23 @@
+li {
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  padding: 3px 7px;
+  border-radius: 8px;
+  transition: box-shadow 0.2s, background 0.2s, color 0.2s;
+  box-shadow: none;
+  display: inline-block;
+}
+
+a.selected {
+  border: 2px solid #b83f45;
+  color: #b83f45;
+  background: #fff;
+  box-shadow: 0 2px 8px 0 #b83f4540;
+}
